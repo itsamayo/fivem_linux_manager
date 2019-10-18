@@ -30,7 +30,7 @@ $ crontab -e
 
 ## Important Notes
 * Make sure your FiveM path in your root directory matches what's in `manager.sh` at `FIVEM_PATH=/FiveM`.
-* The `stop` and `restart` methods will clear your servers cache found at `resources/cache`, if you don't want to clear your cache you can remove the following lines from the `manage.sh` file for both methods):
+* The `stop` and `restart` methods will clear your servers cache found at `resources/cache`, if you don't want to clear your cache you can remove the following lines from the `manage.sh` file for both methods:
 ```
 rm -R $FIVEM_PATH/server-data/cache/
 echo -e "$GREEN Clearing the cache. $NORMAL"
