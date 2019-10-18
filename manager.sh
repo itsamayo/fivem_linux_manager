@@ -32,7 +32,7 @@ case "$1" in
 	then
 	    echo -e "$RED The server [$SCREEN] is already running $NORMAL"
 	else
-        echo -e "$ORANGE The server [$SCREEN] will start momentaril $NORMAL"
+        echo -e "$ORANGE The server [$SCREEN] will start momentarily $NORMAL"
 		screen -dm -S $SCREEN
 		sleep 2
 		screen -x $SCREEN -X stuff "cd "$FIVEM_PATH"/server-data && bash "$FIVEM_PATH"/run.sh +exec server.cfg"
