@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Colours for messages
-    NORMAL="\033[0;37m"
-    RED="\033[1;31m"
-    GREEN="\033[1;32m"
-    ORANGE="\033[1;33m"
-	
 # FiveM master path
     FIVEM_PATH=/FiveM
 
@@ -14,6 +8,12 @@
 
 # Restart message
     RESTART_MESSAGE="Server will restart in 30 seconds"
+
+# Colours for messages
+    NORMAL="\033[0;37m"
+    RED="\033[1;31m"
+    GREEN="\033[1;32m"
+    ORANGE="\033[1;33m"
 
 cd $FIVEM_PATH	
 running(){
