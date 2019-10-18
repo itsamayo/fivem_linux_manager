@@ -24,8 +24,8 @@ $ crontab -e
 ```
 * Once in editing mode, add the below to it (this will set auto restart for 6am and 6pm relative to your servers time)
 ```
-0 6 * * * /FiveM/manage.sh restart
-0 18 * * * /FiveM/manage.sh restart
+0 6 * * * manage.sh restart
+0 18 * * * manage.sh restart
 ```
 
 ## Important Notes
